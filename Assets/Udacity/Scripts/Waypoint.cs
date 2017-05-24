@@ -21,7 +21,7 @@ public class Waypoint : MonoBehaviour
 	private State  		_state					= State.Idle;
 	private Color		_color_origional		= new Color(0.0f, 1.0f, 0.0f, 0.5f);
 	private Color		_color					= Color.white;
-	private float 		_scale					= 1.0f;
+	private float 		_scale					= 5.0f;
 	private float 		_animated_lerp			= 1.0f;
 	private AudioSource _audio_source			= null;
 	private Material	_material				= null;
